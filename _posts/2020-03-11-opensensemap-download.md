@@ -1,7 +1,9 @@
 ---
 date: 2020-03-11
 title: Datendownload
-categories: devices
+categories:
+  - api
+  - devices
 description: Datendownload über die openSenseMap
 type: Document
 resources:
