@@ -1,2 +1,10 @@
 - name: Tutorials
   link: /
+# - name: Videos
+#   link: /videos/
+# - name: FAQ
+#   link: /faq/
+# - name: EN
+#   link: https://en.docs.sensebox.de
+- name: openSenseMap
+  link: https://data.opensensemap.org

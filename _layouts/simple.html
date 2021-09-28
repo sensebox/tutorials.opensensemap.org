@@ -12,16 +12,6 @@
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 	<link rel="stylesheet"
 		href="//fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic,300,700,700italic|Open+Sans:400italic,600italic,700italic,700,600,400|Inconsolata:400,700">
-
-	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-	<script>
-		window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-		ga('create', '{{ site.google_analytics_key }}', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<script async src='https://www.google-analytics.com/analytics.js'></script>
-	{% endif %}
-
 	{% seo %}
 	{% feed_meta %}
 
@@ -76,6 +66,12 @@
 		document.getElementById("open-nav").addEventListener("click", function (event) {
 			event.preventDefault();
 			document.body.classList.toggle("nav-open");
+		});
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function (event) {
+			mediumZoom('[data-zoomable]')
 		});
 	</script>
 </body>

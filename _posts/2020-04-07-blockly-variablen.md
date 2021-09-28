@@ -1,12 +1,11 @@
 ---
 date: 2020-03-11
 title: Variablen
-title_order: 6
+title_order: 11
 categories: Blockly
 description: Arbeiten mit Variablen in Blockly
 type: Document
-set: blockly-erste-schritte
-set_order: 6
+
 resources:
   - name: "Blockly.senseBox.de"
     link: https://blockly.sensebox.de
@@ -17,7 +16,7 @@ image4: /images/2020-04-08-blockly-variablen/blockly-variablen-4.svg
 ---
 
 ## Allgemeines
-Variablen sind Platzhalter für Zahlen, Buchstaben und Zeichenketten. Das bedeutet, dass eine Variable **nicht** über den gesamten Programmverlauf gleich bleiben muss. Dies ist besonders dann praktisch, wenn du eine bestimmt Information an verschiedenen Stellen im Programm nutzen möchtest.
+Variablen sind Platzhalter für Zahlen, Buchstaben und Zeichenketten. Das bedeutet, dass eine Variable **nicht** über den gesamten Programmverlauf gleich bleiben muss. Dies ist besonders dann praktisch, wenn du eine bestimmte Information an verschiedenen Stellen im Programm nutzen möchtest.
 
 Variablen lassen sich durch den `Schreibe Element`-Block definieren.
 
@@ -26,7 +25,7 @@ Variablen lassen sich durch den `Schreibe Element`-Block definieren.
 Im Drodown-Menü des Blocks lässt sich die Variable umbenennen und eine neue Variable erstellen.
 
 ## Beispiel
-Nach einem Fussballspiel soll in einer Variable gespeichert werden, wieviele Tore gefallen sind. Diese Variable wird dann auf dem Display angezeigt
+Nach einem Fußballspiel soll in einer Variable gespeichert werden, wie viele Tore gefallen sind. Diese Variable wird dann auf dem Display angezeigt.
 
 {% include image.html image=page.image2 %}
 
@@ -35,7 +34,7 @@ Um das einfache Beispiel etwas zu erweitern, sollen nun live Punkte dazugezählt
 {% include image.html image=page.image3 %}
 
 ## Datentypen
-Je nachdem was in einer Variable gespeichert werden sollte man den richtigen Datentyp festlegen. Den Datentyp legst du mit Hilfe des `als Zeichen`-Blocks fest. Dieser Block wird an einen `Schreibe Element`-Block angeknüpft. Anschließend wird im freien Blockabschnitt wird der zu speichernde Wert eingefügt und im Dropdown-Menü der Datentyp gewählt.
+Je nachdem was in einer Variable gespeichert wird, sollte man den richtigen Datentyp festlegen. Den Datentyp legst du mit Hilfe des `als Zeichen`-Blocks fest. Dieser Block wird an einen `Schreibe Element`-Block angeknüpft. Anschließend wird im freien Blockabschnitt der zu speichernde Wert eingefügt und im Dropdown-Menü der Datentyp gewählt.
 
 {% include image.html image=page.image4 %}
 <br>

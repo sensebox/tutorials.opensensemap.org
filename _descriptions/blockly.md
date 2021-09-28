@@ -1,5 +1,6 @@
 ---
 categories: Blockly
-head: Blockly für die senseBox
-description: Erste Schritte mit Blockly für die senseBox
+head: Blockly für senseBox
+description: Informationen zur visuellen Programmierumgebung Blockly für senseBox.
+image: /images/category-icons/blockly.png
 ---

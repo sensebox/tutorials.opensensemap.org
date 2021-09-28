@@ -4,43 +4,43 @@ title: Datendownload
 categories: opensensemap
 description: Datendownload über die openSenseMap
 type: Document
+resources:
+image1: /images/2020-03-11-opensensemap-download/1-filter.png
+image2: /images/2020-03-11-opensensemap-download/1-download.png
 ---
 
 Es bestehen mehrere Möglichkeiten Sensordaten von der openSenseMap herunterzuladen.
 Abhängig von der Fragestellung bietet sich je eine Option an.
-Bei den von der senseBox aufgenommenen Daten handelt es sich um Open Data, das heißt sie stehen für alle Nutzer zur freien Verfügung. 
+Bei den von der senseBox aufgenommenen Daten handelt es sich um Open Data, das heißt sie stehen allen Nutzer:innen zur freien Verfügung. 
 
 ## Daten zu einer Box
 
-Unter <https://archive.opensensemap.org> wird ein Archiv für sämtliche Messungen in der openSenseMap Datenbank geführt.
+Unter <https://archive.opensensemap.org> wird ein Archiv für sämtliche Messungen in der openSenseMap-Datenbank geführt.
 Hier sind nach Tag und Box gegliederte Messwerte als CSV beziehungsweise ZIP-Archiv verfügbar.
 
 ## Filter
 
 Durch einen Klick auf den Reiter "Filter" in der openSenseMap kannst du dir zunächst optional spezifische Dinge für deine Suche und den anschließenden Download der Daten vorfiltern lassen.
 Solltest du nach einem Namen filtern, kannst du auch die Werte einer einzelnen senseBox herunterladen.
-Das der Filter aktiv ist, erkennst du an einem roten Dreick unter dem "Reiter" Namen
+Dass der Filter aktiv ist, erkennst du an einem roten Dreieck unter dem Reiter "Namen".
 
-<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/filter.png" align="center" width="900"/>
+{% include image.html image=page.image1 %}
 
+## Graphische Darstellung von Daten  
 
-## Grapische Darstellung von Daten  
-
-Neben der Funktion zum Filtern kannst du dir auch die Statistiken der einzelnen Boxen anzeigen lassen, indem du einfach auf eine beliebige Box in der Karte klickst, woraufhin du dann in der Sidebar die Statistiken auswählen 
-kannst, die du angezeigt bekommen möchtest.
+Neben der Funktion zum Filtern kannst du dir auch die Statistiken der einzelnen Boxen anzeigen lassen, indem du einfach auf eine beliebige Box in der Karte klickst, woraufhin du dann in der Sidebar die Statistiken auswählen kannst, die du angezeigt bekommen möchtest.
 
 ## Download
 
 Wenn du auf der Seite der openSenseMap den Reiter "Datendownload" auswählst, kannst du eine Reihe von räumlichen und zeitlichen Filtern auf die bereits von den senseBoxen gemessenen Werte anwenden.
 
-<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/downl.png" align="center" width="900"/>
+{% include image.html image=page.image2 %}
 
 
 ### Zeitraum auswählen
 
 Zunächst solltest du einen Zeitraum auswählen, von welchem du die Daten angezeigt haben möchtest.
-Dies geht entweder manuell, oder du wählst zwischen "letzte 24 Stunden",
-"Letzte Woche" oder "Letzter Monat".  
+Dies geht entweder manuell, oder du wählst zwischen "letzte 24 Stunden", "Letzte Woche" oder "Letzter Monat".  
 
 
 ### Gruppieren nach...
@@ -51,7 +51,7 @@ Alternativ ist es aber auch möglich, dir die Rohdaten ausgeben zu lassen.
 ### Operation
 
 Jetzt kannst du unter "Operation" entscheiden, welche Funktion du auf die Werte anwenden möchtest.
-Hierbei kannst du dir zum Beispiel das Maximum oder Minimum von gemessenen Tempertaturen berechnen lassen.
+Hierbei kannst du dir zum Beispiel das Maximum oder Minimum von gemessenen Temperaturen berechnen lassen.
 
 ### Wähle einen Sensor
 
@@ -70,7 +70,7 @@ Klicke auf den Button "Columns", um auswählen zu können, welche zusätzlichen 
 
 Derzeit wird nur das Datenformat CSV unterstützt, welches problemlos mit Tabellenkalkulations-Tools wie 
 [Microsoft Excel](excel.md), [Libre office](libre.md), [R-Studio](R.md) oder [ArcGis](Arc.md) verarbeitet werden kann.
-Informationen zu weiteren Datenformaten findet ihr [hier](formate.md)
+Informationen zu weiteren Datenformaten findet ihr [hier](formate.md).
 
 Jede Zeile enthält eine Messung einer senseBox mit dem ausgewählten Phänomen.
 Der Messwert (`value`), Standort des Sensors (`lat`, `lng`, Referenzsystem WGS84) und ein Zeitstempel (`createdAt`) sind in je einer Spalte angegeben:

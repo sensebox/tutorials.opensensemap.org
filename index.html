@@ -9,26 +9,23 @@
 	{% assign name = category[0] %}
 	{% assign posts = category[1] %}
 	{% assign size = posts | size %}
-	<section class="category">
-		<h3>
-			{% for item in descriptions %}
+	{% assign tutorials = posts | sort: "title_order" %}
+	<div class="category">
+		{% for item in descriptions %}
 			{% if item.categories contains name %}
-			<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ item.head | replace: "-", " " }}</a>
+				<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">
+					<div class="card">
+						<div class="container">
+							<div class="top">
+								<img src="{{ item.image }}" alt="Avatar" align="left" style="padding-right: 10px; max-width: 10%;">
+								<h4>{{ item.head | replace: "-", " " }}</h4>
+							</div>
+							<p>{{ item.description }}</p>
+						</div>
+					</div>
+				</a>
 			{% endif %}
-			{% endfor %}
-		</h3>
-
-		<ul>
-			{% assign tutorials = posts | sort: "title_order" %}
-			{% for tutorial in tutorials limit: 4 %}
-			<li><a
-					href="{{ site.baseurl }}{{ tutorial.url }}">{% include document-icon.html icon=tutorial.type %}{{ tutorial.title }}</a>
-			</li>
-			{% endfor %}
-			{% if size > 4 %}
-			<li><a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ size | minus: 4 }} weitere...</a></li>
-			{% endif %}
-		</ul>
-	</section>
+		{% endfor %}
+	</div>
 	{% endfor %}
 </section>
