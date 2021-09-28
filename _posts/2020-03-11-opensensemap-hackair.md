@@ -1,7 +1,7 @@
 ---
 date: 2020-03-11
 title: hackAIR
-categories: opensensemap
+categories: devices
 description: Anleitung eines hackAIR
 type: Document
 ---
@@ -33,4 +33,3 @@ Danach sollte ein offenes Netzwerk mit dem Namen `ESP-wemos` verfügbar sein. Da
 
 ## Fertig
 Der `hackAIR home v2` Sensor sollte nun die Daten an die openSenseMap senden.
-

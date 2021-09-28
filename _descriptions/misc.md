@@ -1,6 +1,6 @@
 ---
 categories: misc
 head: Verschiedenes
-description: Verschiedene Dokumentationen zur senseBox
+description: Verschiedene Projekte und Tools rund um die openSenseMap
 image: /images/category-icons/allgemein.png
 ---

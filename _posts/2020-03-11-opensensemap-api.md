@@ -1,7 +1,7 @@
 ---
 date: 2020-03-11
 title: API Dokumentation
-categories: opensensemap
+categories: api
 description: openSenseMap RESTful API
 type: Document
 ---

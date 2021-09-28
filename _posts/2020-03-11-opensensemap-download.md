@@ -1,7 +1,7 @@
 ---
 date: 2020-03-11
-title: Datendownload 
-categories: opensensemap
+title: Datendownload
+categories: devices
 description: Datendownload über die openSenseMap
 type: Document
 resources:
@@ -11,7 +11,7 @@ image2: /images/2020-03-11-opensensemap-download/1-download.png
 
 Es bestehen mehrere Möglichkeiten Sensordaten von der openSenseMap herunterzuladen.
 Abhängig von der Fragestellung bietet sich je eine Option an.
-Bei den von der senseBox aufgenommenen Daten handelt es sich um Open Data, das heißt sie stehen allen Nutzer:innen zur freien Verfügung. 
+Bei den von der senseBox aufgenommenen Daten handelt es sich um Open Data, das heißt sie stehen allen Nutzer:innen zur freien Verfügung.
 
 ## Daten zu einer Box
 
@@ -26,7 +26,7 @@ Dass der Filter aktiv ist, erkennst du an einem roten Dreieck unter dem Reiter "
 
 {% include image.html image=page.image1 %}
 
-## Graphische Darstellung von Daten  
+## Graphische Darstellung von Daten
 
 Neben der Funktion zum Filtern kannst du dir auch die Statistiken der einzelnen Boxen anzeigen lassen, indem du einfach auf eine beliebige Box in der Karte klickst, woraufhin du dann in der Sidebar die Statistiken auswählen kannst, die du angezeigt bekommen möchtest.
 
@@ -40,7 +40,7 @@ Wenn du auf der Seite der openSenseMap den Reiter "Datendownload" auswählst, ka
 ### Zeitraum auswählen
 
 Zunächst solltest du einen Zeitraum auswählen, von welchem du die Daten angezeigt haben möchtest.
-Dies geht entweder manuell, oder du wählst zwischen "letzte 24 Stunden", "Letzte Woche" oder "Letzter Monat".  
+Dies geht entweder manuell, oder du wählst zwischen "letzte 24 Stunden", "Letzte Woche" oder "Letzter Monat".
 
 
 ### Gruppieren nach...
@@ -68,7 +68,7 @@ Klicke auf den Button "Columns", um auswählen zu können, welche zusätzlichen 
 
 ### Formate
 
-Derzeit wird nur das Datenformat CSV unterstützt, welches problemlos mit Tabellenkalkulations-Tools wie 
+Derzeit wird nur das Datenformat CSV unterstützt, welches problemlos mit Tabellenkalkulations-Tools wie
 [Microsoft Excel](excel.md), [Libre office](libre.md), [R-Studio](R.md) oder [ArcGis](Arc.md) verarbeitet werden kann.
 Informationen zu weiteren Datenformaten findet ihr [hier](formate.md).
 
