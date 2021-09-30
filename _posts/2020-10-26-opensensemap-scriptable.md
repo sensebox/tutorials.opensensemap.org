@@ -1,7 +1,7 @@
 ---
 date: 2020-10-30
 title: openSenseMap iOS Widget
-categories: misc
+categories: applications
 description: Ein einfaches Widget für iOS 14 Geräte
 type: Document
 title_order: 11
