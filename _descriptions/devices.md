@@ -1,4 +1,5 @@
 ---
+type: tutorials
 categories: devices
 head: Gerätemanagement
 description: Informationen zur Verwaltung und Registrierung von Geräten.

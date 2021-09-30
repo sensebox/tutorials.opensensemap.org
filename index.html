@@ -4,7 +4,7 @@
 
 <section class="categories">
 	{% assign categories = site.categories | sort %}
-	{% assign descriptions = site.descriptions %}
+	{% assign descriptions = site.descriptions | where: "type", "tutorials" %}
 	{% for category in categories %}
 	{% assign name = category[0] %}
 	{% assign posts = category[1] %}
