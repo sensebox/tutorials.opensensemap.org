@@ -1,0 +1,32 @@
+---
+layout: simple
+---
+
+
+<section class="categories">
+  {% assign categories = site.categories | sort %}
+  {% assign descriptions = site.descriptions %}
+  {% for category in categories %}
+  {% assign name = category[0] %}
+  {% assign posts = category[1] %}
+  {% assign size = posts | size %}
+  {% assign tutorials = posts | sort: "title_order" %}
+  <div class="category">
+    {% for item in descriptions %}
+    {% if item.categories contains name %}
+    <a href="{{ site.baseurl }}/category/{{ name | slugify }}/">
+      <div class="card">
+        <div class="container">
+          <div class="top">
+            <img src="{{ item.image }}" alt="Avatar" align="left" style="padding-right: 10px; max-width: 10%;">
+            <h4>{{ item.head | replace: "-", " " }}</h4>
+          </div>
+          <p class="description">{{ item.description }}</p>
+        </div>
+      </div>
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+  {% endfor %}
+</section>
