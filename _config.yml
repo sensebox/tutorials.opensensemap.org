@@ -76,6 +76,12 @@ defaults:
     values:
       body_class: "show_hero_search"
 
+  -
+    scope:
+      path: "search.html"
+    values:
+      body_class: "show_hero_search"
+
 # -----------
 # CloudCannon
 

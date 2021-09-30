@@ -22,6 +22,7 @@
 
 {% assign t = site.data.translations %}
 {% assign edu = site.data.education %}
+{% assign search = site.data.search %}
 
 <body class="{{ page.body_class }}">
 	<header>
@@ -34,6 +35,9 @@
 					{% if page.title == "education" %}
 						<h1>{{ edu.headline }}</h1>
 						<p>{{ edu.description }}</p>
+					{% elsif page.title == "Search" %}
+						<h1>{{ search.headline }}</h1>
+						<p>{{ search.description }}</p>
 					{% else %}
 						<h1>{{ t.headline }}</h1>
 						<p>{{ edu.description }}</p>
