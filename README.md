@@ -34,6 +34,9 @@ Run `jekyll` commands through Bundler to ensure you're using the right versions:
 $ bundle exec jekyll serve
 ~~~
 
+For `Jekyll` documentation checkout this link: https://jekyllrb.com/docs/variables/
+`Jekyll` uses `Liquid` as a templating engine. For `Liquid` checkout this documentation: https://shopify.github.io/liquid/
+
 ## i18n
 
 The master contains the german version of the docs and serves [https://docs.sensebox.de]. English is stored in the `EN` branch and serves [https://en.docs.sensebox.de].
@@ -64,7 +67,7 @@ image00: /images/2020-03-11-home-erweiterung-lora/home-lora-00.png //specify ima
 ---
 ```
 
-Adding a new categories is simple. Just add `categories: category-name` to the font-matter. Please only use small letters and no spaces. If you add a complete new category add a description in the folder `_descriptions`. Follow the given examples. 
+Adding a new categories is simple. Just add `categories: category-name` to the font-matter. Please only use small letters and no spaces. If you add a complete new category add a description in the folder `_descriptions`. Follow the given examples.
 * `head` will be used a headline on the overview page
 * `description` will appear on the category pages
 
