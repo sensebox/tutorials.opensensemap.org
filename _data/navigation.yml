@@ -1,3 +1,5 @@
+- name: openSenseMap
+  link: https://data.opensensemap.org
 - name: Tutorials
   link: /
 # - name: Videos
@@ -6,5 +8,3 @@
 #   link: /faq/
 # - name: EN
 #   link: https://en.docs.sensebox.de
-- name: openSenseMap
-  link: https://data.opensensemap.org
