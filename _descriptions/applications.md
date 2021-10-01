@@ -2,6 +2,6 @@
 type: education
 categories: applications
 head: Anwendungen
-description: Informationen und Dokumentation zur RESTful API
+description: Hier findet ihr Anwendungsbeispiele die euch zeigen, wie Umweltdaten verwertet werden können.
 image: /images/category-icons/applications.svg
 ---

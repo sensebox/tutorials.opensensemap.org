@@ -2,6 +2,6 @@
 type: tutorials
 categories: integrations
 head: Integrationen
-description: Integrationen zur Anbindung unterschiedlicher Systeme
+description: Einbindung von Netzwerk- und Kommunikationsprotokollen
 image: /images/category-icons/integrations.svg
 ---
