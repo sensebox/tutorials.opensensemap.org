@@ -1,7 +1,7 @@
 ---
 type: tutorials
 categories: api
-head: RESTful API
-description: Informationen und Dokumentation zur RESTful API
+head: API
+description: Dokumentation zur standardisierten RESTful Schnittstelle
 image: /images/category-icons/api.svg
 ---

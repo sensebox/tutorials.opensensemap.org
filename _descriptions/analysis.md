@@ -2,6 +2,6 @@
 type: education
 categories: analysis
 head: Datenauswertung
-description: Informationen und Dokumentation zur RESTful API
+description: Wie kommt man an die offenen Umweltdaten und wie lassen diese sich verarbeiten oder analysieren?
 image: /images/category-icons/api.svg
 ---
