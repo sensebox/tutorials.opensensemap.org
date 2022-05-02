@@ -5,6 +5,8 @@ gem "jekyll", "~> 3.6"
 gem "kramdown-parser-gfm"
 gem "webrick", "~> 1.7"
 
+gem 'jemoji', '0.12.0'
+
 group :jekyll_plugins do
   gem 'jekyll-archives', '2.1.1'
   gem 'jekyll-extract-element', '0.0.7'
