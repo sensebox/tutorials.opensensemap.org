@@ -128,7 +128,7 @@ Die nachfolgende Tabelle beschreibt, wie ihr die Sensoren manuell konfiguriert:
 |SCD30| SCD30_temperature | `temperatur` | SCD30 |  ✅ |
 |SCD30| SCD30_humidity | `rel. luftfeuchte`, `luftfeuchtigkeit`, `luftfeuchte` | SCD30 | ✅ |
 |SCD30| SCD30_co2_ppm || SCD30 | ❌ |
-|DNMS| DNMS_noise_LAeq |  |  | ❌ |
+|DNMS| DNMS_noise_LAeq | `schallpegel, geräuschpegel` | DNMS | ✅ |
 |DNMS| DNMS_noise_LA_min |  |  | ❌ |
 |DNMS| DNMS_noise_LA_max |  |  | ❌ |
 || samples |  |  | ❌ |
